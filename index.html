@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rendom Password Generate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <span id="pass-box">Testing</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="25" min="8" value="8">
+                </div>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        Contains UpperCase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="Upper-case" checked>
+                </div>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        Contains LowerCase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="lower-case">
+                </div>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        Contains Number
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="number" >
+                </div>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        Contains Symbole
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="symbole">
+                </div>
+            </div>
+            <div class="row">
+                <button id="btn">Generate</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
